@@ -1,0 +1,536 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+body{
+overflow-x: hidden;
+}
+.spacer
+  {
+    padding: 80px 0;
+  }
+/* ****************************Top-Menu************************ */
+.container{
+  width: 87%;
+  margin: auto;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top-menu{
+  background-color: #003366;
+  color: white;
+  padding: 12px 0;
+  font-size: 15px;
+}
+.top-text{
+  margin-right: 7px;
+}
+.top-right{
+  margin-right: 7px;
+}
+.top-icon{
+  margin-left: 7px;
+  font-size: 18px;
+}
+.top-center {
+  margin-right: 10%;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* ****************************Main-Menu start************************ */
+
+.main-logo img{
+  width: 220px;
+}
+.main-menu{
+  padding: 10px 0;
+}
+.main-header ul li {
+  text-decoration: none;
+  list-style: none;
+}
+.main-header ul li{
+  font-weight:650;
+  margin-left: 33px;
+  position: relative;
+  font-size: 14px;
+;
+}
+.flexs{
+  display: flex;
+  align-items: center;
+}
+.main-icon{
+  font-size: 17px;
+  position: absolute;
+  margin-top: 3px;
+  margin-left: 2px;
+}
+.student{
+  margin-right: 15px;
+}
+/* ****************************Main-Menu end************************ */
+
+/* ****************************Main-Menu-Slider Start***************** */
+
+.Slider-img{
+  width: 100%;
+}
+/* ********************Main-Menu-Slider end******************** */
+
+
+
+/* *******************OFFERED COURSES Start********************** */
+ .space-div{
+  padding-top: 50px;
+}
+.offered-s{
+  text-align: center;
+  position: relative;
+}
+.offered-courses{
+  height: 4px;
+  width: 30px;
+  background-color: #FFBC06;
+  position: absolute;
+  right: 57%;
+  top: 45%;
+}
+.offered h1{
+  text-align: center;
+  color: #393636;
+  margin-top: 8px;
+  letter-spacing: 2px;
+  margin-right: 10px;
+}
+.offered-row{
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.offered-row h2{
+  padding: 10px 8px;
+  font-size: 20px;
+  color: rgb(52, 47, 47);
+  border-left: 1px solid rgb(219, 207, 207);
+  border-right: 1px solid  rgb(219, 207, 207);
+  /* border-top: 1px solid  rgb(219, 207, 207); */
+
+}
+
+.offered-row div img{
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+
+}
+.offered-row2 i {
+  color: rgb(209, 180, 35);
+  font-size: 22px;
+  margin-top: 20px;
+}
+.offered-row2{
+  border: 1px solid rgb(219, 207, 207);
+  margin-bottom: 30px;
+  padding: 18px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;  
+}
+.offered-row2 button{
+  background-color: #0D3D6E;
+  color: white;
+  padding: 10px 13px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.view-btn{
+  margin: 20px 0 0 50%;
+  transform: translateX(-50%);
+  background-color: #FFBC06;
+  padding: 15px 35px ;
+  border: none;
+  color: white;
+  font-size: 17px;
+  border-radius: 7px;
+}
+
+/* *******************OFFERED COURSES END********************** */
+
+/* *******************About Us Start********************** */
+.aboutus{
+  width: 100%;
+  position: relative;
+  height: 600px;
+}
+.about-left{
+  position: absolute;
+  width:52%;
+  padding: 60px;
+  border-bottom-right-radius:250px;
+  border-top-right-radius: 250px;
+  background-color: white;
+  z-index: 1;
+  border: 1px solid gray;
+  
+}
+.about{
+  position: relative;
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
+.about-colorsing{
+  height: 3px;
+  width: 25px;
+  background-color: #FFBC06;
+  position: absolute;
+  left: -35px;
+  top: 40%;
+}
+.about-btn{
+  background-color: #FFBC06;
+  padding: 20px 35px 20px 30px;
+  border: none;
+  color: white;
+  font-size: 15px;
+  position: relative;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.aboutus h4{
+  margin-bottom: 20px;
+}
+.aboutus .about-text{
+  font-size: 15px;
+  color: #676363;
+  text-align: justify;
+  line-height: 20px;
+}
+.about-right{
+  width: 45%;
+  position: absolute;
+  right: 0;
+  object-fit: cover;
+}
+.about-right img{
+  width: 100%;
+  height: 100%;
+  margin-top: 33px;
+  position: relative;
+}
+.about-shadow{
+  position: absolute;
+  top: 8%;
+  left: 0;
+  width: 100%;
+  height: 91%;
+  background-color: rgba(8, 19, 52, 0.4)
+
+}
+
+/* *************About Us End************* */
+
+ /* ***********keybord part start***********  */
+
+ .keybord{
+  background-image: linear-gradient(rgba(19, 41, 65, 0.8),rgba(11,25,40,.8)),url(image/keybord-img.jpg);
+  height: 70px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  /* margin-bottom: 30px; */
+  padding-bottom: 130px;
+
+  
+ }
+ .keybord1{
+  display: flex;
+  justify-content: space-between;
+
+ }
+ .keybord img{
+  height: 80px;
+  width: 80px;
+  /* margin-top: 10px; */
+ }
+ .keybord h2{
+  margin: 10px 0;
+ }
+/* ***********Keybord part End***********  */
+
+
+/* *************HAPPY STUDENTS Start **************/
+
+ .happy-left{
+  width: 50%;
+ }
+ .happy-left p{
+  text-align: justify;
+  margin-right: 10px;
+  color: #676363;
+
+ }
+ .happy h1{
+  color: #292525;
+  margin-top: 15px;
+ }
+ .quotes{
+  font-size: 100px;
+  color: #bfbfbf;
+ }
+ .happystudent-flex{
+  margin-top: 20px;   
+ }
+ .icon-flex-right i{
+  font-size: 19px;
+  padding: 6px 9px;
+  border: 1px solid rgb(204, 199, 199);
+  box-shadow: 0 0 10px  rgb(204, 199, 199);
+  margin-right: 10px;
+ }
+ .happy-text{
+  width: 70%;
+ }
+ .happy-text1{
+  width: 20%;
+ }
+ .happy-text2{
+  width: 75%;
+  margin-top: 10px;
+ }
+ 
+ .happy-left img{
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  margin-top: 35px;
+  margin-right: 50px;
+ }
+ 
+ .happy-left h4{
+  color: #0a56a1;
+  margin-top: 10px;
+ }
+
+ .happy-right{
+  width: 65%;
+  position: relative;
+
+ }
+ .happy-right img{
+  width: 87%;
+  margin-left: 50px;
+ }
+ 
+ .happy2{
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 30px;
+ 
+
+ }
+
+/* *************HAPPY STUDENTS End**************/
+
+/* *************READ OUR DIFFERENCE START************ */
+.bgcolor{
+  background-color: #f7f7f7;
+ }
+ .choose-creative{
+   display: flex;
+ 
+ }
+ .choose-creative > div{
+   border-radius: 10px;
+   box-shadow: 1px 0px 2px gray;
+   width: 30% !important;
+   margin: 20px;
+   padding: 30px;
+   text-align: center;
+ 
+ }
+ .choose-creative > div > p{
+   color: gray;
+ }
+ .choose-creative > div > h1{
+   display: flex;
+   justify-content: center;
+ }
+ .choose-creative > div > h1 >svg{
+   text-align: center;
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 20px;
+ }
+ .choose-creative > div > h1 > .icon1{
+   background-color: #F6475F;
+   margin: 10px;
+ 
+ }
+ .choose-creative > div > h1 > .icon2{
+   background-color: #FFBC06;
+   margin: 10px;
+  
+ }
+ .choose-creative> div > h1 > .icon3{
+   background-color: #B3D369;
+   margin: 10px;
+ }
+ .choose-creative > div > h1 > .icon4{
+   background-color: #554DA7;
+   margin: 10px;
+ }
+ .choose-creative > div > h1 > .icon5{
+   background-color: #4382FF;
+   margin: 10px;
+ }
+ .choose-creative> div > h1 > .icon6{
+   background-color: #F94FA4;
+   margin: 10px;
+ } 
+/* *************READ OUR DIFFERENCE END************* */
+
+/* **********************PLACEMENT START***************** */
+.stu1-head span{
+  padding-left: 500px;
+}
+.student-head > div {
+  display: flex;
+  margin-top: 25px;
+}
+.student-head > div >img{
+  border: 1px solid #C8C8C8;
+  margin: 20px 20px ;
+  
+}
+.our_d{
+  font-size: 20px;
+  color: #292B2C;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding-bottom: 20px;
+
+}
+.multi{
+border: 1px solid lightgray;
+font-size: 12px;
+margin: 2px 2px;
+padding: 3px 15px;
+}
+.btn3{
+display: flex;
+justify-content: start;
+}
+.show{
+font-size: 14px;
+padding-top: 10px;
+margin-bottom: 40px;
+}
+.show:hover{
+color: #FFBC06;
+transition: 1s;
+cursor: pointer;
+}
+/* **********************PLACEMENT END***************** */
+
+
+/* *************FOOTER START************* */
+
+
+.footer-bg{
+  background-color: #003366;
+  color: white;
+  display: flex;
+  padding-bottom: 80px;
+}
+.footer-logo{
+  width: 33.33%;
+}
+.footer-logo > img{
+  margin-left: 90px;
+  margin-top: 80px;
+  width: 270px;
+}
+.footer-logo > p{
+  margin-left: 90px;
+  width: 340px;
+  text-align: justify;
+  margin-top: 15px;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 30px;
+}
+.footer-logo > span{
+  margin-left: 90px;
+  color: #EAA800;
+  font-weight: bold;
+}
+.icon1{
+  padding-top: 20px;
+}
+.icon1 > i{
+  margin-right: 10px;
+  background-color: rgba(255, 255,255, 0.2);
+  padding: 5px;
+  border-radius: 5px;
+}
+.row2 >p{
+  margin-top: 90px;
+  margin-left: 70px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 18px;
+}
+.row2 > ul{
+  margin-left: 70px;
+  list-style: none;
+  margin-top: 20px;
+  line-height: 30px;
+  
+}
+.row2 > ul > li >i{
+  margin-right: 12px;
+ 
+}
+.row3 > .contact{
+  margin-top: 90px;
+  margin-left: 70px;
+  letter-spacing: 1px;
+  font-weight: 500; 
+}
+.row3 > h4{
+  margin-left: 70px;
+  margin-top: 20px;
+  color: #EAA800;
+}
+.address{
+  margin-left: 70px;
+  width: 70%;
+  margin-top: 10px;
+}
+.number{
+  margin-left: 70px;
+}
+.row3 > ul{
+  list-style: none;
+  margin-left: 70px;
+  margin-top: 10px;
+  line-height: 30px;
+}
+.row3 > ul > li >i{
+  margin-right: 10px;
+} 
+/* *************FOOTER END************* */
+
+
